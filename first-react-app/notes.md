@@ -109,7 +109,27 @@ Layouts (HOC || High Order Component)
 /parentSignInAndUp
 >> Nav n Footer
 
+after hoc, we can't pass class/function component directly as: export default ClassComponent;
+instead we have to pass it as a parameter: export default BaseHoc(ClassComponent);
+
 <!-- HOC's can add additional info/features to the existing components -->
 
 
 ## React Life Cycle Methods
+render(){
+
+}
+
+# cdm
+<!--* Makes sure whether the component got rendered on the screen or not -->
+ComponentDidMount(){
+
+}
+
+ComponentDidUpdate(){
+<!--* Makes sure whether the component got updated or not -->
+}
+
+ComponentWillUnmount(){
+<!--* Triggers before closing of the component -->
+}

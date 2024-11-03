@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import BaseHoc from "../hoc/BaseHoc";
 
 const FunctionComponent = ({name, age, author, setName}) => { //* Props are the parameters containing information
     const [count, setCount] = useState(0);
@@ -20,7 +21,7 @@ const FunctionComponent = ({name, age, author, setName}) => { //* Props are the 
     )
 }
 
-export default FunctionComponent;
+export default BaseHoc(FunctionComponent);
 
 // props: {
 //     name: "Star",
