@@ -6,7 +6,8 @@ SPA (Single Page Appln) => Whole website contains a single HTML Page
 Components (Grp codes)
 Data Binding => Uni Directional, flow of the data
 Virtual DOM 
-                                 home.jsx
+                                          
+                                            home.jsx
 
         BannerSection.jsx           Navbar.jsx              section.jsx     footer.jsx
 
